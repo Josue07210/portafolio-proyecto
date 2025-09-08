@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhonnatan.Ortiz</title>
+  <link rel="stylesheet" href="styles.css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav id="navegacion">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <h1>¡Hola! Soy Jhonnatan Josué Ortiz Ospina</h1>
+        <p>Estudiante de Jóvenes CreaTIvos, desarrollador web frontend.</p>
+    </section>
+</header>
+
+<main>
+  <section id="sobre-mi">
+    <div class="container">
+        <div class="about-image">
+            <img src="assets/IMG_20250420_170304.jpg" alt="Jhonnatan Josué Ortiz Ospina">
+        </div>
+        <div class="about-text">
+            <h2>Sobre mí</h2>
+            <div class="text-paragraph">
+                <p>Hola, te doy la bienvenida a mi portafolio, mi nombre es Jhonnatan Josué Ortiz Ospina y soy un estudiante del programa Jovenes CreaTIvos.</p>
+                <p>Soy alguien apasionado por la tecnología, todo lo que hay en ella me fascina, por eso he decido aprender de ella en el ámbito del desarrollo web.</p>
+                <p>Mis objetivos son conocer más de las nuevas tecnologías, y mejorar mis habilidades para lo que quiero lograr en este sector tan dinámico y en constante evolución como lo es el desarrollo web. Entonces de esa manera poder lograr crear sitios web con gran personalidad y funcionalidad, que ofrezcan una cómoda experiencia al usuario, y para eso estoy mejorando mis conocimientos necesarios para poder crear un código limpio, responsivo y accesible</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Mis Proyectos</h2>
+    <div class="proyectos-container">
+        <div class="proyecto-card">
+            <div class="proyecto-img-placeholder"></div>
+            <h3>Mi primer proyecto</h3>
+            <p>Mi incio con HTML y CSS</p>
+            <div class="proyecto-links" target="_blank">
+                <a href="https://github.com/Josue07210/primer-proyecto">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="proyecto-card">
+            <div class="proyecto-img-placeholder"></div>
+            <h3>Contador Simple</h3>
+            <p>Un contador al que se le puede tanto aumentar como disminuir el número, dependiendo el límite que le coloques.</p>
+            <div class="proyecto-links" target="_blank">
+                <a href="https://github.com/Josue07210/contador-simple" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="proyecto-card">
+            <div class="proyecto-img-placeholder" target="_blank"></div>
+            <h3>Proyecto Tic Tac Toe</h3>
+            <p>Este fue un proyecto en el que inicie con JS.</p>
+            <div class="proyecto-links" target="_blank">
+                <a href="https://github.com/Josue07210/tic-tac-toe" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="habilidades">
+    <h2>Mis Habilidades</h2>
+    <div class="habilidades-container">
+        <div class="habilidad">
+            <h3>HTML</h3>
+            <div class="barra-progreso">
+                <div class="progreso" style="width: 90%;"></div>
+            </div>
+            <p>90%</p>
+        </div>
+        <div class="habilidad">
+            <h3>CSS</h3>
+            <div class="barra-progreso">
+                <div class="progreso" style="width: 80%;"></div>
+            </div>
+            <p>80%</p>
+        </div>
+        <div class="habilidad">
+            <h3>JavaScript</h3>
+            <div class="barra-progreso">
+                <div class="progreso" style="width: 65%;"></div>
+            </div>
+            <p>65%</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contáctame</h2>
+    <div class="contacto-container">
+        <div class="contacto-info">
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>josue071002@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Teléfono</h3>
+                <p>+57 311 5467793</p>
+            </div>
+            <div class="info-item">
+                <h3>Ubicación</h3>
+                <p>Bogotá, Colombia</p>
+            </div>
+        </div>
+        <div class="contacto-form-wrapper">
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="6" placeholder="Tu mensaje aquí" required></textarea>
+        </div>
+        <button id="boton-enviar" type="submit">Enviar Mensaje</button>
+    </form>
+</div>
+</section>
+</main>     
+
+<footer id="footer">
+   <div>
+    <a href="https://github.com/JhonnatanOrtizOspina"> GitHub </a>
+    <a href="https://twitter.com/JhonnatanOrtizO"> Twitter </a>
+   </div>
+  <p> &copy; 2025 Jhonnatan Josué Ortiz Ospina. Todos los derechos reservados. </p>
+</footer>
+
+</body>
+<script src="scripts.js/script.js"></script>
+</html>
